@@ -13,7 +13,7 @@ sourceSets {
 ```
 
 Idea recognise `srs/custom/java` as source root.
-![idea project structure screenshot](idea-project-structure.png)
+![idea project structure screenshot](https://github.com/rougsig/gradle-idea-report-problem/blob/main/idea-project-structure.png)
 But `:ideaModule` task does not add `src/custom/java` as `sourceFolder`.
 
 Result file from `:ideaModule` task `gradle-idea-report-problem.iml`:
